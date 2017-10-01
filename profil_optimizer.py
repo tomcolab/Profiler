@@ -16,6 +16,8 @@ from tkinter import messagebox
 #%%
 
 #define available profile arrays
+from permutations import Permutations
+
 normal_profile_selection = np.array([1000,2000,3000,5000])
 no_five_profile_selection = np.array([1000,2000,3000])
 
@@ -40,22 +42,12 @@ if not result:
      
 #check for cutting tolerance     
 
-#check for permutation depth 
-check_series = profiles_df.copy()
-check_series = check_series.sort_values(check_series.columns[0])
-max_raw_profile_length = check_series.max().values
-permutation_depth = 1                                                                             
-for length in check_series.values:
-     diff = max_raw_profile_length - length
-     if(diff >= cutting_tolerance):
-          max_raw_profile_length = diff
-     else:
-          break
-     permutation_depth = permutation_depth + 1
-     
+#check for permutation depth
+permutations = Permutations(profiles_df.copy(), selection, cutting_tolerance)
+permutation_depth = permutations.get_permutation_depth()
 
 #create permutations of values
-perm_df_dict = get_permuted_dataframes(profiles_df, permutation_depth)
+perm_df_dict = permutations.get_permuted_dataframes(profiles_df, permutation_depth)
 
 
 #%%
@@ -183,54 +175,4 @@ writer.save()
 
 #%%
 
-def drop_from_permutation_dataframes(current_profile_id, permutations_dfs_dict):
-     for key in permutations_dfs_dict:
-          for depth in range(1, key+1):
-              drop_series = permutations_dfs_dict[key].loc[permutations_dfs_dict[key]["Id"+str(depth)] == current_profile_id]
-              permutations_dfs_dict[key]  = permutations_dfs_dict[key].drop(drop_series.index)
-     
-     return permutations_dfs_dict     
-
-
-def sums_of_permutations(permut_df, id_df):
-     sum_dict = {}
-     index = 0
-     for tuple  in permut_df.itertuples(index=False, name=None):       
-               sum_dict[index] = sum(tuple)
-               index = index + 1
-     
-     sum_df = pd.DataFrame()
-     sum_df = sum_df.from_dict(sum_dict)
-     sum_df = sum_df.T
-     sum_df.columns = ["sum"]
-     sum_df = sum_df.join(id_df)
-     sum_df = sum_df.sort_values("sum")
-     return sum_df
-
-def get_permuted_dataframes(profiles_df, max_depth):
-     out_dict = {}
-     for depth in range(1, max_depth+1):
-          permut = get_permuted_values_df(profiles_df, depth)
-          permut_ind = get_permuted_profile_ids_df(profiles_df, depth)
-          permut_ind.columns = get_id_list(depth)
-          out_dict[depth] = sums_of_permutations(permut, permut_ind)
-          
-     return out_dict
-                 
-
-def get_permuted_values_df(profiles_df, depth):
-     permut_list = list(itertools.permutations(profiles_df.values, depth))
-     permut_df = pd.DataFrame(permut_list)
-     return permut_df
-     
-def get_permuted_profile_ids_df(profiles_df, depth):
-     permut_list = list(itertools.permutations(profiles_df.index, depth))
-     permut_df = pd.DataFrame(permut_list)
-     return permut_df  
-
-def get_id_list(depth):
-     id_list = []
-     for i in range(1, depth+1):
-          id_list.append("Id"+str(i))
-     return id_list
 
