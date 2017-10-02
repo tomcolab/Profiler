@@ -3,7 +3,7 @@ import random
 
 
 class SimulatedAnnealing:
-    def __init__(self, dataset, cycles, trials_per_cycle, P_start, P_end):
+    def __init__(self, dataset, permutation_dict, cycles, trials_per_cycle, P_start, P_end):
         self.cycles = cycles
         self.trials_per_cycle = trials_per_cycle
         self.accepted_solutions = 0.0
@@ -12,6 +12,7 @@ class SimulatedAnnealing:
         self.initial_temperature = -1.0 / math.log(self.start_probability)
         self.final_temperature = -1.0 / math.log(self.end_probability)
         self.fractional_reduction = (self.final_temperature / self.initial_temperature)**(1.0 / (cycles - 1.0))
+        self.permutation_dict = permutation_dict
 
         # set initial dataset
         self.original_dataset = dataset

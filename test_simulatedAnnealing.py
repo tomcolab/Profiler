@@ -19,7 +19,10 @@ class TestSimulatedAnnealing(TestCase):
         permutation_depth = permutations.get_permutation_depth()
 
         # create permutations of values
-        perm_df_dict = permutations.get_permuted_dataframes(profiles_df, permutation_depth)
+        self.perm_df_dict = permutations.get_permuted_dataframes(profiles_df, permutation_depth)
+
+        #create random solution
+
 
 
 s
@@ -29,4 +32,4 @@ s
         P_start = 0.7
         P_end = 0.001
 
-        self.simulated_annealing = SimulatedAnnealing(self.dataset, cycles, trials, P_start, P_end)
+        self.simulated_annealing = SimulatedAnnealing(self.dataset, self.perm_df_dict, cycles, trials, P_start, P_end)
