@@ -38,3 +38,10 @@ class TestPermutations(TestCase):
 
         self.assertEqual(self.depth, permutation_df_counter)
 
+    def test_permutation_dataframe_merging(self):
+        permutations_df = self.permutations.merge_permutation_dataframes(self.permuted_dict)
+        self.assertEqual(len(permutations_df.columns), self.depth + 2)
+
+    def test_get_combinations(self):
+        combinations_df = self.permutations.get_combinations_dataframe(self.dataset)
+        self.assertEqual(len(combinations_df.columns), self.depth + 2)

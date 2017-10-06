@@ -1,12 +1,26 @@
 import itertools
 import pandas as pd
 
-
+#TODO: Permutations usese combinations --> document this in the class description
 class Permutations:
     def __init__(self, dataset, raw_profiles, cutting_tolerance):
         self.cutting_tolerance = cutting_tolerance
         self.dataset = dataset.sort_values(dataset.columns[0])
         self.raw_profiles = raw_profiles
+
+
+
+    def merge_permutation_dataframes(self, permutation_dict):
+        permutation_df = pd.DataFrame()
+        for df_key in permutation_dict:
+            permutation_df = permutation_df.append(permutation_dict[df_key], ignore_index=True)
+        return permutation_df
+
+    def get_combinations_dataframe(self, dataset):
+        depth = self.get_permutation_depth()
+        combination_dict = self.get_permuted_dataframes(dataset, depth)
+        return self.merge_permutation_dataframes(combination_dict)
+
 
     def get_permutation_depth(self):
         max_raw_profile_length = self.raw_profiles.max()
@@ -46,6 +60,7 @@ class Permutations:
         sum_df = sum_df.sort_values("sum")
         return sum_df
 
+
     def get_permuted_dataframes(self, profiles_df, max_depth):
         out_dict = {}
         for depth in range(1, max_depth + 1):
@@ -62,12 +77,12 @@ class Permutations:
         return out_dict
 
     def __get_permuted_values_df(self, profiles_df, depth):
-        permut_list = list(itertools.permutations(profiles_df.values, depth))
+        permut_list = list(itertools.combinations(profiles_df.values, depth))
         permut_df = pd.DataFrame(permut_list)
         return permut_df
 
     def __get_permuted_profile_ids_df(self, profiles_df, depth):
-        permut_list = list(itertools.permutations(profiles_df.index, depth))
+        permut_list = list(itertools.combinations(profiles_df.index, depth))
         permut_df = pd.DataFrame(permut_list)
         return permut_df
 

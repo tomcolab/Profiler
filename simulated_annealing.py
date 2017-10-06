@@ -1,17 +1,24 @@
+import json
 import math
 import random
+import numpy as np
 
 
 class SimulatedAnnealing:
-    def __init__(self, dataset, permutation_dict, cycles, trials_per_cycle, P_start, P_end):
-        self.cycles = cycles
-        self.trials_per_cycle = trials_per_cycle
+    #TODO: How to load dataset, permutations, cutting_tolerance and raw profile configuration?
+    def __init__(self, dataset, permutation_dict, parameter):
+        #SA configuration
+
+        self.parameter = json.loads(parameter)
+
+        self.cycles = self.parameter["cycles"]
+        self.trials_per_cycle = self.parameter["trails"]
         self.accepted_solutions = 0.0
-        self.start_probability = P_start
-        self.end_probability = P_end
+        self.start_probability = self.parameter["P_start"]
+        self.end_probability = self.parameter["P_end"]
         self.initial_temperature = -1.0 / math.log(self.start_probability)
         self.final_temperature = -1.0 / math.log(self.end_probability)
-        self.fractional_reduction = (self.final_temperature / self.initial_temperature)**(1.0 / (cycles - 1.0))
+        self.fractional_reduction = (self.final_temperature / self.initial_temperature)**(1.0 / (self.cycles - 1.0))
         self.permutation_dict = permutation_dict
 
         # set initial dataset
@@ -19,6 +26,48 @@ class SimulatedAnnealing:
         self.dataset = self.original_dataset
         # calculate initial costs
         self.initial_costs = self.__get_costs(dataset)
+
+    def get_random_solution(self, dataset_dict, combinations_df, raw_profile_list):
+        """
+        This function returns a random solution by randomly choosing permutations and a random fitting raw profile.
+        :param dataset_dict: the profiles to cut
+        :param combinations_df: combinations of the profiles as dataframe
+        :param raw_profile_list: the available raw profiles
+        :return random profile cutting solution dictionary containing raw profiles as key and a list of cuts as values.
+        """
+        random_solution_dict = {}
+        is_profile_left = True
+
+        while is_profile_left:
+            random_combination = combinations_df[combinations_df["used"] == 0].sample(n=1)
+            # gather all profile ids from random combination
+            id_list = []
+            for column in random_combination.iteritems():
+                if "Id" in column[0]:
+                    id_list.append(column[1].values)
+
+            #cleanup id list
+            id_list = [value for value in id_list if not math.isnan(value)]
+
+            for id in id_list:
+
+                # search all combinations using the id columns and set them to 1
+                for depth in range(1, len(combinations_df.columns) - 1):
+                    drop_series = combinations_df.loc[combinations_df["Id" + str(depth)] == id[0]]  # TODO: comment this
+                    combinations_df.at[drop_series.index.tolist(), "used"] = 1
+
+            #select randomly a fitting raw profile and add to the combination
+            self.__get_costs(random_combination)
+            random_combination["raw length"] =
+
+            random_solution_dict[np.asscalar(random_combination.index.values)] = random_combination
+            # check if there are combinations left
+            if combinations_df["used"].all():
+                is_profile_left = False
+
+            #FIXME: Refactor function using smaller units
+
+        return random_solution_dict
 
     def simulate_annealing(self):
         self.accepted_solutions += 1.0
@@ -62,7 +111,13 @@ class SimulatedAnnealing:
             current_temperature = self.fractional_reduction * current_temperature
 
     def __get_costs(self, dataset):
-        pass
+
+        #The dataset should be a dict of profiles having a the permutation id as id and containing cuts as
+        #list
+
+        #get id lengths
+
+        #sum up the lengths
 
     def __get_neighbour(self):
         pass

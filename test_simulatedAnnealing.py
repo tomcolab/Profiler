@@ -1,3 +1,5 @@
+import json
+import random
 from unittest import TestCase
 import pandas as pd
 import numpy as np
@@ -16,20 +18,36 @@ class TestSimulatedAnnealing(TestCase):
 
         # check for permutation depth
         permutations = Permutations(profiles_df.copy(), self.normal_profile_selection, self.cutting_tolerance)
-        permutation_depth = permutations.get_permutation_depth()
-
-        # create permutations of values
-        self.perm_df_dict = permutations.get_permuted_dataframes(profiles_df, permutation_depth)
+        self.combinations_df = permutations.get_combinations_dataframe(self.dataset)
 
         #create random solution
+        #initial_solution = get_random_solution(self.dataset, self.combinations_df, self.normal_profile_selection)
 
 
 
-s
+
+
     def test_simulate_annealing(self):
-        cycles = 100
-        trials = 50
-        P_start = 0.7
-        P_end = 0.001
+        pass
 
-        self.simulated_annealing = SimulatedAnnealing(self.dataset, self.perm_df_dict, cycles, trials, P_start, P_end)
+
+        #parameter = json.dump(sa_parameter)
+
+        #self.simulated_annealing = SimulatedAnnealing(self.dataset, self.perm_df_dict, parameter)
+
+    def test_random_solution_generation(self):
+
+        sa_parameter = {
+            "cycles": 100,
+            "trails": 50,
+            "P_start": 0.7,
+            "P_end":0.001
+        }
+        parameter = json.dumps(sa_parameter)
+
+        self.simulated_annealing = SimulatedAnnealing(self.dataset, self.combinations_df, parameter)
+        dict = self.simulated_annealing.get_random_solution(self.dataset, self.combinations_df, self.normal_profile_selection)
+
+        #check if all id's are present
+
+        #check if selected combinations fit in the corresponding raw profile
