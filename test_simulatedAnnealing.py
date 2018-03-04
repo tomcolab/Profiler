@@ -7,6 +7,7 @@ import numpy as np
 from permutations import Permutations
 from simulated_annealing import SimulatedAnnealing
 
+import matplotlib.pyplot as plt
 
 class TestSimulatedAnnealing(TestCase):
 
@@ -28,12 +29,31 @@ class TestSimulatedAnnealing(TestCase):
 
 
     def test_simulate_annealing(self):
-        pass
+        sa_parameter = {
+            "cycles": 100,
+            "trails": 50,
+            "P_start": 0.7,
+            "P_end": 0.001
+        }
+        parameter = json.dumps(sa_parameter)
+
+        self.simulated_annealing = SimulatedAnnealing(self.dataset, self.combinations_df, self.normal_profile_selection, parameter)
+        self.simulated_annealing.start()
+
+        best_costs = self.simulated_annealing.best_results_list
+
+        best_scrap_list = []
+        for profile_dict in best_costs:
+            scrap_sum = 0
+            for uuid, raw_profile in profile_dict.items():
+                scrap_sum += raw_profile.scrap
+
+            best_scrap_list.append(scrap_sum)
+
+        plt.plot(best_scrap_list)
+        plt.show()
 
 
-        #parameter = json.dump(sa_parameter)
-
-        #self.simulated_annealing = SimulatedAnnealing(self.dataset, self.perm_df_dict, parameter)
 
     def test_random_solution_generation(self):
 
@@ -47,7 +67,8 @@ class TestSimulatedAnnealing(TestCase):
 
         self.simulated_annealing = SimulatedAnnealing(self.dataset, self.combinations_df, parameter)
         dict = self.simulated_annealing.get_random_solution(self.dataset, self.combinations_df, self.normal_profile_selection)
-
+        print(dict)
+        W
         #check if all id's are present
 
         #check if selected combinations fit in the corresponding raw profile

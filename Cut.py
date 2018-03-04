@@ -7,17 +7,9 @@ Created on Wed Sep 20 23:29:13 2017
 
 class Cut():
      
-     def __init__(self, id, profile_id, length):
+     def __init__(self, cut_id, profile_id, length):
           """Constructor"""
-          self._id = id
-          self._length = length
-          self._profile_id = profile_id
+          self.cut_id = cut_id
+          self.profile_id = profile_id
+          self.length = length
 
-     @property
-     def id(self):
-          return self._id
-     
-     @property
-     def length(self):
-          return self._length
-     

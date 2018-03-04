@@ -36,7 +36,7 @@ class Permutations:
 
         return permutation_depth
 
-    def __drop_from_permutation_dataframes(self, current_profile_id, permutations_dfs_dict):
+    def drop_from_permutation_dataframes(self, current_profile_id, permutations_dfs_dict):
         for key in permutations_dfs_dict:
             for depth in range(1, key + 1):
                 drop_series = permutations_dfs_dict[key].loc[

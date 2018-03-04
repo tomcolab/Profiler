@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e61447-0dcb-4468-a0dc-4bf627a01e8f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.xlsx" afterPath="$PROJECT_DIR$/test.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cut.py" afterPath="$PROJECT_DIR$/Cut.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RawProfile.py" afterPath="$PROJECT_DIR$/RawProfile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/permutations.py" afterPath="$PROJECT_DIR$/permutations.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profil_optimizer.py" afterPath="$PROJECT_DIR$/profil_optimizer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulated_annealing.py" afterPath="$PROJECT_DIR$/simulated_annealing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_permutations.py" afterPath="$PROJECT_DIR$/test_permutations.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_simulatedAnnealing.py" afterPath="$PROJECT_DIR$/test_simulatedAnnealing.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +23,9 @@
       <file leaf-file-name="profil_optimizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="110" column="67" lean-forward="false" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="67" />
-              <folding>
-                <element signature="e#86#105#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="158" column="42" lean-forward="false" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -32,8 +33,8 @@
       <file leaf-file-name="permutations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/permutations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="1674">
+              <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -44,7 +45,7 @@
       <file leaf-file-name="test_permutations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_permutations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
+            <state relative-caret-position="766">
               <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -56,10 +57,16 @@
       <file leaf-file-name="simulated_annealing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+            <state relative-caret-position="883">
+              <caret line="144" column="49" lean-forward="false" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#1558#2895#0" expanded="false" />
+                <element signature="e#4693#4871#0" expanded="false" />
+                <element signature="e#6287#6471#0" expanded="false" />
+                <element signature="e#6545#6874#0" expanded="false" />
+                <element signature="e#6936#7270#0" expanded="false" />
+                <element signature="e#7377#7686#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -68,8 +75,8 @@
       <file leaf-file-name="test_simulatedAnnealing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+            <state relative-caret-position="162">
+              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -77,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="anneal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py">
+      <file leaf-file-name="Cut.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+            <state relative-caret-position="243">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RawProfile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RawProfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="577">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -101,6 +118,8 @@
       <find>DeltaE_avg</find>
       <find>frac</find>
       <find>itertools</find>
+      <find>id</find>
+      <find>length</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,9 +128,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/profil_optimizer.py" />
         <option value="$PROJECT_DIR$/test_permutations.py" />
         <option value="$PROJECT_DIR$/permutations.py" />
+        <option value="$PROJECT_DIR$/profil_optimizer.py" />
+        <option value="$PROJECT_DIR$/Cut.py" />
+        <option value="$PROJECT_DIR$/RawProfile.py" />
         <option value="$PROJECT_DIR$/test_simulatedAnnealing.py" />
         <option value="$PROJECT_DIR$/simulated_annealing.py" />
       </list>
@@ -140,7 +161,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation">
+  <component name="RunManager" selected="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing">
     <configuration name="Nosetests for test_permutations.TestPermutations" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,36 +222,6 @@
       <option name="_new_target" value="&quot;test_permutations.TestPermutations.test_get_combinations&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_permutations.TestPermutations.test_get_permutation_depth" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Profiler" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_permutations.TestPermutations.test_get_permutation_depth&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Nosetests for test_permutations.TestPermutations.test_permutation_dataframe_merging" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Profiler" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_permutations.TestPermutations.test_permutation_dataframe_merging&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
     <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,20 +237,52 @@
       <option name="_new_target" value="&quot;test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Profiler" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="profil_optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Profiler" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profil_optimizer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_permutation_depth" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_permutation_dataframe_merging" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_combinations" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_combinations" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.profil_optimizer" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_combinations" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_permutation_dataframe_merging" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_permutation_depth" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" />
+        <item index="2" class="java.lang.String" itemvalue="Python.profil_optimizer" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_combinations" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations" />
       </list>
     </recent_temporary>
   </component>
@@ -280,58 +303,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 46m 06s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 46m 11s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 46m 51s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 46m 38s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 48m 23s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 48m 24s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 48m 31s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 49m 22s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 53m 04s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 50m 57s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 54m 31s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 52m 15s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 54m 41s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 57m 28s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 56m 13s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 59m 13s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 59m 28s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 19h 07m 22s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_random_solution_generation - 2017.10.06 at 17h 59m 33s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" configurationId="tests" />
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 19h 12m 30s.xml">
+      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14607948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10902256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45558086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45558086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3716434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -340,18 +363,179 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="68" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="random_combination" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="60" column="94" lean-forward="false" selection-start-line="60" selection-start-column="94" selection-end-line="60" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RawProfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
+    <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2457">
+          <caret line="102" column="44" lean-forward="false" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RawProfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
+    <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="56" column="83" lean-forward="false" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
           <caret line="60" column="23" lean-forward="false" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-          <folding>
-            <element signature="e#86#105#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -385,20 +569,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2997">
-          <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
     <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="5" column="94" lean-forward="false" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -407,9 +590,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="49" selection-end-column="83" />
-          <folding>
-            <element signature="e#86#105#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -429,18 +610,17 @@
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2997">
-          <caret line="115" column="21" lean-forward="true" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
     <entry file="file://$PROJECT_DIR$/permutations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2241">
@@ -455,9 +635,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3759">
           <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-          <folding>
-            <element signature="e#86#105#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -467,18 +645,17 @@
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/indexes/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -486,10 +663,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
+    <entry file="file://$PROJECT_DIR$/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_nosetest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/nose/suite.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="226" column="0" lean-forward="false" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -502,53 +714,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="115" column="21" lean-forward="false" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+        <state relative-caret-position="156">
+          <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="453" column="0" lean-forward="false" selection-start-line="453" selection-start-column="0" selection-end-line="453" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1311" column="0" lean-forward="false" selection-start-line="1311" selection-start-column="0" selection-end-line="1311" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="3520" column="0" lean-forward="false" selection-start-line="3520" selection-start-column="0" selection-end-line="3520" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="2925" column="0" lean-forward="false" selection-start-line="2925" selection-start-column="0" selection-end-line="2925" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="158" column="42" lean-forward="false" selection-start-line="158" selection-start-column="41" selection-end-line="158" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="647" column="0" lean-forward="false" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="327">
+          <caret line="2041" column="0" lean-forward="false" selection-start-line="2041" selection-start-column="0" selection-end-line="2041" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="620" column="0" lean-forward="false" selection-start-line="620" selection-start-column="0" selection-end-line="620" selection-end-column="0" />
+        <state relative-caret-position="381">
+          <caret line="605" column="0" lean-forward="false" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="52" column="76" lean-forward="false" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_permutations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
+        <state relative-caret-position="766">
           <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
@@ -556,22 +783,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
+    <entry file="file://$PROJECT_DIR$/Cut.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="110" column="67" lean-forward="false" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="67" />
+        <state relative-caret-position="243">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RawProfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding>
-            <element signature="e#86#105#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="115" column="13" lean-forward="false" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
+        <state relative-caret-position="883">
+          <caret line="144" column="49" lean-forward="false" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#1558#2895#0" expanded="false" />
+            <element signature="e#4693#4871#0" expanded="false" />
+            <element signature="e#6287#6471#0" expanded="false" />
+            <element signature="e#6545#6874#0" expanded="false" />
+            <element signature="e#6936#7270#0" expanded="false" />
+            <element signature="e#7377#7686#0" expanded="false" />
           </folding>
         </state>
       </provider>

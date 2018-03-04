@@ -33,6 +33,8 @@ root.filename =  filedialog.askopenfilename(initialdir = "/",title = "Select fil
 #%%
 #load profile lengths in pandas dataframe
 profiles_df = pd.read_excel(root.filename)
+
+
 profiles_df = profiles_df.sort_values(profiles_df.columns[0], ascending=False)
 
 #check which profiles are available
@@ -45,7 +47,7 @@ if not result:
 #check for permutation depth
 permutations = Permutations(profiles_df.copy(), selection, cutting_tolerance)
 permutation_depth = permutations.get_permutation_depth()
-
+permutation_depth = 3
 #create permutations of values
 perm_df_dict = permutations.get_permuted_dataframes(profiles_df, permutation_depth)
 
@@ -108,7 +110,7 @@ while(remaining_profiles_array.any()):
 
                     #remove candidate from the list
                     remaining_profiles_array = remaining_profiles_array.drop(id[0])
-                    perm_df_dict = drop_from_permutation_dataframes(id[0], perm_df_dict)
+                    perm_df_dict = permutations.drop_from_permutation_dataframes(id[0], perm_df_dict)
 
 
      else:
@@ -119,7 +121,7 @@ while(remaining_profiles_array.any()):
 
           #drop length from remaining profiles and all permutation dataframes
           remaining_profiles_array = remaining_profiles_array.drop(current_profile_id)
-          perm_df_dict = drop_from_permutation_dataframes(current_profile_id, perm_df_dict)
+          perm_df_dict = permutations.drop_from_permutation_dataframes(current_profile_id, perm_df_dict)
 
           #check fitting of avalable raw profiles
           for raw_profile in selection:
@@ -127,6 +129,7 @@ while(remaining_profiles_array.any()):
                     break
 
           id_counter = id_counter + 1
+          print(id_counter)
           NewRawProfile = RawProfile(id_counter, raw_profile)
           raw_profile_list.append(NewRawProfile)
 
