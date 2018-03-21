@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e61447-0dcb-4468-a0dc-4bf627a01e8f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.xlsx" afterPath="$PROJECT_DIR$/test.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cut.py" afterPath="$PROJECT_DIR$/Cut.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RawProfile.py" afterPath="$PROJECT_DIR$/RawProfile.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/permutations.py" afterPath="$PROJECT_DIR$/permutations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profil_optimizer.py" afterPath="$PROJECT_DIR$/profil_optimizer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simulated_annealing.py" afterPath="$PROJECT_DIR$/simulated_annealing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_permutations.py" afterPath="$PROJECT_DIR$/test_permutations.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_simulatedAnnealing.py" afterPath="$PROJECT_DIR$/test_simulatedAnnealing.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +27,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test_permutations.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_permutations.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="permutations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/permutations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+            <state relative-caret-position="79">
+              <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="30" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -42,13 +51,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_permutations.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_permutations.py">
+      <file leaf-file-name="combination_generation_profiling.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/combination_generation_profiling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="64">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#24#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,16 +66,15 @@
       <file leaf-file-name="simulated_annealing.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
-              <caret line="144" column="49" lean-forward="false" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
+            <state relative-caret-position="183">
+              <caret line="181" column="12" lean-forward="false" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#1558#2895#0" expanded="false" />
-                <element signature="e#4693#4871#0" expanded="false" />
-                <element signature="e#6287#6471#0" expanded="false" />
-                <element signature="e#6545#6874#0" expanded="false" />
-                <element signature="e#6936#7270#0" expanded="false" />
-                <element signature="e#7377#7686#0" expanded="false" />
+                <element signature="e#4728#4906#0" expanded="false" />
+                <element signature="e#6377#6561#0" expanded="false" />
+                <element signature="e#6635#6964#0" expanded="false" />
+                <element signature="e#7026#7360#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,8 +83,8 @@
       <file leaf-file-name="test_simulatedAnnealing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+            <state relative-caret-position="378">
+              <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="84" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -97,8 +105,8 @@
       <file leaf-file-name="RawProfile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RawProfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="729">
+              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -120,6 +128,7 @@
       <find>itertools</find>
       <find>id</find>
       <find>length</find>
+      <find>sum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,12 +137,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_permutations.py" />
-        <option value="$PROJECT_DIR$/permutations.py" />
         <option value="$PROJECT_DIR$/profil_optimizer.py" />
         <option value="$PROJECT_DIR$/Cut.py" />
         <option value="$PROJECT_DIR$/RawProfile.py" />
         <option value="$PROJECT_DIR$/test_simulatedAnnealing.py" />
+        <option value="$PROJECT_DIR$/test_permutations.py" />
+        <option value="$PROJECT_DIR$/combination_generation_profiling" />
+        <option value="$PROJECT_DIR$/combination_generation_profiling.py" />
+        <option value="$PROJECT_DIR$/permutations.py" />
         <option value="$PROJECT_DIR$/simulated_annealing.py" />
       </list>
     </option>
@@ -160,7 +171,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,7 +183,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,8 +202,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing">
-    <configuration name="Nosetests for test_permutations.TestPermutations" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_combination_generator">
+    <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -204,10 +215,10 @@
       <module name="Profiler" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_permutations.TestPermutations&quot;" />
+      <option name="_new_target" value="&quot;combination_generation_profiling.ProfileCombinations&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_permutations.TestPermutations.test_get_combinations" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_combination_generator" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -219,10 +230,10 @@
       <module name="Profiler" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_permutations.TestPermutations.test_get_combinations&quot;" />
+      <option name="_new_target" value="&quot;combination_generation_profiling.ProfileCombinations.test_profile_combination_generator&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_get_combination_depth" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -234,10 +245,10 @@
       <module name="Profiler" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation&quot;" />
+      <option name="_new_target" value="&quot;combination_generation_profiling.ProfileCombinations.test_profile_get_combination_depth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="Nosetests for combination_generation_profiling.TestPermutations" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -249,40 +260,38 @@
       <module name="Profiler" />
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing&quot;" />
+      <option name="_new_target" value="&quot;combination_generation_profiling.TestPermutations&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="profil_optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Profiler" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/profil_optimizer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_simulatedAnnealing.TestSimulatedAnnealing&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_combinations" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.profil_optimizer" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.TestPermutations" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_get_combination_depth" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_combination_generator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_random_solution_generation" />
-        <item index="2" class="java.lang.String" itemvalue="Python.profil_optimizer" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations.test_get_combinations" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_permutations.TestPermutations" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_combination_generator" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_get_combination_depth" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for combination_generation_profiling.TestPermutations" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing" />
       </list>
     </recent_temporary>
   </component>
@@ -303,34 +312,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 46m 11s.xml">
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations - 2018.03.18 at 15h 32m 09s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations - 2018.03.18 at 15h 32m 28s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations - 2018.03.18 at 18h 07m 06s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations - 2018.03.18 at 18h 09m 20s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations_test_profile_combination_generator - 2018.03.18 at 18h 09m 51s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_combination_generator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations_test_profile_combination_generator - 2018.03.18 at 18h 12m 20s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_combination_generator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_combination_generation_profiling_ProfileCombinations_test_profile_get_combination_depth - 2018.03.18 at 15h 32m 45s.xml">
+      <configuration name="Nosetests for combination_generation_profiling.ProfileCombinations.test_profile_get_combination_depth" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.18 at 14h 30m 07s.xml">
       <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 46m 38s.xml">
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.18 at 14h 31m 11s.xml">
       <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 48m 24s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 49m 22s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 50m 57s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 52m 15s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 57m 28s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 18h 59m 13s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 19h 07m 22s.xml">
-      <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.04 at 19h 12m 30s.xml">
+    <history-entry file="Nosetests_for_test_simulatedAnnealing_TestSimulatedAnnealing_test_simulate_annealing - 2018.03.18 at 15h 03m 22s.xml">
       <configuration name="Nosetests for test_simulatedAnnealing.TestSimulatedAnnealing.test_simulate_annealing" configurationId="tests" />
     </history-entry>
   </component>
@@ -338,22 +347,22 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10902256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11385607" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45558086" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41343963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3716434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -370,7 +379,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="68" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -379,32 +388,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="60" column="94" lean-forward="false" selection-start-line="60" selection-start-column="94" selection-end-line="60" selection-end-column="94" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profil_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -440,11 +423,10 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
+            <element signature="e#4728#4906#0" expanded="false" />
+            <element signature="e#6377#6561#0" expanded="false" />
+            <element signature="e#6635#6964#0" expanded="false" />
+            <element signature="e#7026#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -522,11 +504,10 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
+            <element signature="e#4728#4906#0" expanded="false" />
+            <element signature="e#6377#6561#0" expanded="false" />
+            <element signature="e#6635#6964#0" expanded="false" />
+            <element signature="e#7026#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -577,11 +558,10 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
+            <element signature="e#4728#4906#0" expanded="false" />
+            <element signature="e#6377#6561#0" expanded="false" />
+            <element signature="e#6635#6964#0" expanded="false" />
+            <element signature="e#7026#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -611,11 +591,10 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
+            <element signature="e#4728#4906#0" expanded="false" />
+            <element signature="e#6377#6561#0" expanded="false" />
+            <element signature="e#6635#6964#0" expanded="false" />
+            <element signature="e#7026#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,11 +625,10 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
+            <element signature="e#4728#4906#0" expanded="false" />
+            <element signature="e#6377#6561#0" expanded="false" />
+            <element signature="e#6635#6964#0" expanded="false" />
+            <element signature="e#7026#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,21 +642,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_simulated_annealing.zip/anneal.py" />
-    <entry file="file://$PROJECT_DIR$/permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/unittest/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="176" column="0" lean-forward="false" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -773,16 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -793,34 +745,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RawProfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="729">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combination_generation_profiling">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_simulatedAnnealing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="378">
+          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="84" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/permutations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combination_generation_profiling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simulated_annealing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="883">
-          <caret line="144" column="49" lean-forward="false" selection-start-line="144" selection-start-column="49" selection-end-line="144" selection-end-column="49" />
+        <state relative-caret-position="183">
+          <caret line="181" column="12" lean-forward="false" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#1558#2895#0" expanded="false" />
-            <element signature="e#4693#4871#0" expanded="false" />
-            <element signature="e#6287#6471#0" expanded="false" />
-            <element signature="e#6545#6874#0" expanded="false" />
-            <element signature="e#6936#7270#0" expanded="false" />
-            <element signature="e#7377#7686#0" expanded="false" />
+            <element signature="e#4728#4906#0" expanded="false" />
+            <element signature="e#6377#6561#0" expanded="false" />
+            <element signature="e#6635#6964#0" expanded="false" />
+            <element signature="e#7026#7360#0" expanded="false" />
           </folding>
         </state>
       </provider>

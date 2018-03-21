@@ -74,7 +74,7 @@ class SimulatedAnnealing:
         old_costs = self.initial_costs
 
         for cycle in range(self.cycles):
-            print('Cycle: ' + str(cycle) + ' using Temperature: ' + str(current_temperature))
+            print('Cycle: ' + str(cycle) + ' using Temperature: ' + str(current_temperature) + "Best Costs: " + str(old_costs))
             for trial in range(self.trials_per_cycle):
 
                 # generate random neighbour
@@ -102,7 +102,7 @@ class SimulatedAnnealing:
 
             # record best value for this cycle
             self.best_results_list.append(self.raw_profile_dict)
-            print("Best Costs: ", old_costs)
+            #print("Best Costs: ", old_costs)
 
             # lower the temperature for the next cycle
             current_temperature = self.fractional_reduction * current_temperature
@@ -118,16 +118,17 @@ class SimulatedAnnealing:
         #get random profile from dict
         profile_dict = raw_profile_dict.copy()
 
-        for i in range(2):
+        dict_count = len(raw_profile_dict)
+        id_list = []
+        for i in range(int(dict_count/3)):
             random_raw_profile_key = random.choice(list(profile_dict))
             random_raw_profile = profile_dict[random_raw_profile_key]
             del profile_dict[random_raw_profile_key]
 
             #get all profile ids from cutlist
-            id_list = []
+
             for cut in random_raw_profile.cut_list:
                 id_list.append(cut.profile_id)
-
 
             #release corresponding used combinations from combinations_df
             for index, row in self.combinations_df.iterrows():
@@ -176,7 +177,10 @@ class SimulatedAnnealing:
     def _get_random_leq_raw_profile(self, raw_profile_id, raw_profile_list, random_combination):
         raw_profile_is_smaller = 1
         while (raw_profile_is_smaller):
-            raw_profile = RawProfile(raw_profile_id, random.choice(raw_profile_list))
+            raw_profile = RawProfile(raw_profile_id, random.choice(raw_profile_list)
+            #TODO: get the sum of the profiles
+            
+
             if (raw_profile.length >= np.asscalar(random_combination["sum"].values)):
                 raw_profile_is_smaller = 0
 

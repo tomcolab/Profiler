@@ -17,6 +17,7 @@ class TestPermutations(TestCase):
         self.depth = self.permutations.get_permutation_depth()
         self.permuted_dict = self.permutations.get_permuted_dataframes(self.dataset, self.depth)
 
+
     def test_permutation_depth_calculation(self):
         """
         Tests if the calculated permutation depth is correct for the given dataset.

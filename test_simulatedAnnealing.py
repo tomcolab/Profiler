@@ -1,8 +1,10 @@
 import json
 import random
+from pstats import Stats
 from unittest import TestCase
 import pandas as pd
 import numpy as np
+import cProfile
 
 from permutations import Permutations
 from simulated_annealing import SimulatedAnnealing
@@ -12,26 +14,32 @@ import matplotlib.pyplot as plt
 class TestSimulatedAnnealing(TestCase):
 
     def setUp(self):
-        profiles_df = pd.read_excel("profillängen.xlsx")
+        profiles_df = pd.read_excel("offerte_lilo_1.xlsx")
         self.dataset = profiles_df.sort_values(profiles_df.columns[0], ascending=False)
         self.normal_profile_selection = np.array([1000, 2000, 3000, 5000])
         self.cutting_tolerance = 10
 
         # check for permutation depth
+        self.pr = cProfile.Profile()
+        self.pr.enable()
         permutations = Permutations(profiles_df.copy(), self.normal_profile_selection, self.cutting_tolerance)
         self.combinations_df = permutations.get_combinations_dataframe(self.dataset)
-
+        """finish any test"""
+        p = Stats(self.pr)
+        p.strip_dirs()
+        p.sort_stats('cumtime')
+        p.print_stats()
+        print
+        "\n--->>>"
         #create random solution
         #initial_solution = get_random_solution(self.dataset, self.combinations_df, self.normal_profile_selection)
-
-
 
 
 
     def test_simulate_annealing(self):
         sa_parameter = {
             "cycles": 100,
-            "trails": 50,
+            "trails": 10,
             "P_start": 0.7,
             "P_end": 0.001
         }
@@ -67,8 +75,6 @@ class TestSimulatedAnnealing(TestCase):
 
         self.simulated_annealing = SimulatedAnnealing(self.dataset, self.combinations_df, parameter)
         dict = self.simulated_annealing.get_random_solution(self.dataset, self.combinations_df, self.normal_profile_selection)
-        print(dict)
-        W
         #check if all id's are present
 
         #check if selected combinations fit in the corresponding raw profile

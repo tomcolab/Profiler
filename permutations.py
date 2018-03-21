@@ -45,7 +45,7 @@ class Permutations:
 
         return permutations_dfs_dict
 
-    def __sums_of_permutations(self, permut_df, id_df):
+    def __sums_of_permutations(self, permut_df, id_df): #FIXME: This is the bottleneck of combination calculation
         sum_dict = {}
         index = 0
         for tuple in permut_df.itertuples(index=False, name=None):
