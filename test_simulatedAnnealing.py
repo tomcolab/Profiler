@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 class TestSimulatedAnnealing(TestCase):
 
     def setUp(self):
-        profiles_df = pd.read_excel("offerte_lilo_1.xlsx")
+        profiles_df = pd.read_excel("profillängen.xlsx")
         self.dataset = profiles_df.sort_values(profiles_df.columns[0], ascending=False)
         self.normal_profile_selection = np.array([1000, 2000, 3000, 5000])
         self.cutting_tolerance = 10

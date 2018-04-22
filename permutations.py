@@ -46,16 +46,19 @@ class Permutations:
         return permutations_dfs_dict
 
     def __sums_of_permutations(self, permut_df, id_df): #FIXME: This is the bottleneck of combination calculation
-        sum_dict = {}
-        index = 0
-        for tuple in permut_df.itertuples(index=False, name=None):
-            sum_dict[index] = sum(tuple)
-            index = index + 1
 
+
+        # sum_dict = {}
+        # index = 0
+        # for tuple in permut_df.itertuples(index=False, name=None):
+        #     sum_dict[index] = sum(tuple)
+        #     index = index + 1
+        #
         sum_df = pd.DataFrame()
-        sum_df = sum_df.from_dict(sum_dict)
-        sum_df = sum_df.T
-        sum_df.columns = ["sum"]
+        # sum_df = sum_df.from_dict(sum_dict)
+        # sum_df = sum_df.T
+        #sum_df.columns = ["sum"]
+        sum_df["sum"] = permut_df.sum(axis=1)
         sum_df = sum_df.join(id_df)
         sum_df = sum_df.sort_values("sum")
         return sum_df

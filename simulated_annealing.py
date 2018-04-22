@@ -177,10 +177,7 @@ class SimulatedAnnealing:
     def _get_random_leq_raw_profile(self, raw_profile_id, raw_profile_list, random_combination):
         raw_profile_is_smaller = 1
         while (raw_profile_is_smaller):
-            raw_profile = RawProfile(raw_profile_id, random.choice(raw_profile_list)
-            #TODO: get the sum of the profiles
-            
-
+            raw_profile = RawProfile(raw_profile_id, random.choice(raw_profile_list))
             if (raw_profile.length >= np.asscalar(random_combination["sum"].values)):
                 raw_profile_is_smaller = 0
 
