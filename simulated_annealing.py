@@ -2,13 +2,15 @@ import json
 import math
 import random
 import numpy as np
+import pandas as pd
 import uuid
 from RawProfile import RawProfile
+from typing import List
 
 
 class SimulatedAnnealing:
     #TODO: How to load dataset, permutations, cutting_tolerance and raw profile configuration?
-    def __init__(self, dataset, combinations_df, normal_profile_selection, parameter):
+    def __init__(self, dataset: pd.DataFrame, raw_profiles: np.ndarray, cutting_tolerance_mm: int, parameter: str):
         #SA configuration
 
         self.parameter = json.loads(parameter)
@@ -25,47 +27,51 @@ class SimulatedAnnealing:
         # set initial dataset
         self.original_dataset = dataset
         self.dataset = dataset
-        self.combinations_df = combinations_df
-        self.normal_profile_selection = normal_profile_selection
+        self.raw_profiles = raw_profiles
+        self.cutting_tolerance_mm = cutting_tolerance_mm
 
-        self.raw_profile_dict = self.get_random_solution(self.dataset,
-                                                         self.combinations_df,
-                                                         self.normal_profile_selection)
-        self.initial_costs = self.__get_costs(self.raw_profile_dict)
+        self.cuttings = self.random_solution(self.dataset, self.raw_profiles)
+        self.initial_costs = self.__get_costs(self.cuttings)
 
         self.best_results_list = []
 
 
-    def get_random_solution(self, dataset_df, combinations_df, raw_profile_list):
-        """
-        This function returns a random solution by randomly choosing permutations and a random fitting raw profile.
-        :param dataset_dict: the profiles to cut
-        :param combinations_df: combinations of the profiles as dataframe
-        :param raw_profile_list: the available raw profiles
-        :return random profile cutting solution dictionary containing raw profiles as key and a list of cuts as values.
-        """
+    def random_raw_profile(self, raw_profiles: np.ndarray) -> RawProfile: 
+        profile = random.choice(raw_profiles)
+        return RawProfile(uuid.uuid4().hex, raw_profiles)
 
-        raw_profile_dict = {}
-        is_profile_left = True
-        while is_profile_left:
-            raw_profile_id = uuid.uuid4().hex
-            random_combination = combinations_df[combinations_df["used"] == 0].sample(n=1)
-            id_list = self.__get_random_combination_ids(random_combination)
-            raw_profile = self._get_random_leq_raw_profile(id_list, raw_profile_list, random_combination)
 
-            #cut profile for each profile id
-            for id in id_list:
-                raw_profile.cut_profile(id[0], np.asscalar(dataset_df.loc[id].values))
-
-            raw_profile.scrap_remainder()
-            raw_profile_dict[raw_profile_id] = raw_profile
-            self.__set_used(combinations_df, id_list)
-
-            # check if there are combinations left
-            if combinations_df["used"].all():
-                is_profile_left = False
-
-        return raw_profile_dict
+    def random_solution(self, dataset: pd.DataFrame, raw_profiles) -> dict:
+        
+        raw_profile = self.random_raw_profile(raw_profiles)
+                
+        cuttings = []
+        for id in range(dataset.size):
+            profile_length = dataset['Profillängen'].loc[id]
+            
+            raw_profile_is_to_short = True
+            while raw_profile_is_to_short:
+                if raw_profile.remainder == profile_length:
+                    raw_profile.cut(id, profile_length)
+                    raw_profile_is_to_short = False
+                
+                elif raw_profile.remainder > profile_length + self.cutting_tolerance_mm:
+                    raw_profile.cut(id, profile_length + self.cutting_tolerance_mm)
+                    raw_profile_is_to_short = False
+            
+                elif raw_profile.is_raw() and (raw_profile.length() < profile_length):
+                    raw_profile = self.random_raw_profile(raw_profiles)
+                
+                else:
+                    raw_profile.scrap_remainder()    
+                    cuttings.append(raw_profile)
+                    raw_profile = self.random_raw_profile(raw_profiles)
+        
+        
+        raw_profile.scrap_remainder()
+        cuttings.append(raw_profile)
+        return cuttings
+        
 
     def start(self):
         self.accepted_solutions += 1.0
@@ -107,12 +113,16 @@ class SimulatedAnnealing:
             # lower the temperature for the next cycle
             current_temperature = self.fractional_reduction * current_temperature
 
-    def __get_costs(self, raw_profile_dict):
-        #return the sum of the scraps
+    def __sum_of_scraps(self, cuttings: List[RawProfile]) -> float:
         scrap_sum = 0
-        for uuid, raw_profile in raw_profile_dict.items():
-            scrap_sum += raw_profile.scrap
+        for raw_profile in cuttings:
+            scrap_sum+= raw_profile.scrap
+            
         return scrap_sum
+
+    def __get_costs(self, cuttings):
+        return self.__sum_of_scraps(cuttings) #TODO: use dependency injection
+
 
     def __get_neighbour(self, raw_profile_dict):
         #get random profile from dict
@@ -138,11 +148,11 @@ class SimulatedAnnealing:
                         row_id_list.append(column[1])
 
                     row_id_list = [value for value in row_id_list if not math.isnan(value)]
-                self.normal_profile_selection
+                self.raw_profiles
                 if(set(row_id_list) <= set(id_list)):
                     self.combinations_df.at[index.tolist(), "used"] = 0
 
-        random_solution_dict = self.get_random_solution(self.dataset, self.combinations_df, self.normal_profile_selection)
+        random_solution_dict = self.get_random_solution(self.dataset, self.combinations_df, self.raw_profiles)
         profile_dict.update(random_solution_dict)
         return profile_dict
 
@@ -155,30 +165,12 @@ class SimulatedAnnealing:
         else:
             return False
 
-    def __get_random_combination_ids(self, random_combination):
-        # gather all profile ids from random combination
-        id_list = []
-        for column in random_combination.iteritems():
-            if "Id" in column[0]:
-                id_list.append(column[1].values)
-
-        # cleanup id list
-        id_list = [value for value in id_list if not math.isnan(value)]
-
-        return id_list
-
-    def __set_used(self, combinations_df, id_list):
-        for id in id_list:
-            # search all combinations using the id columns and set them to 1
-            for depth in range(1, len(combinations_df.columns) - 1):
-                drop_series = combinations_df.loc[combinations_df["Id" + str(depth)] == id[0]]
-                combinations_df.at[drop_series.index.tolist(), "used"] = 1
 
     def _get_random_leq_raw_profile(self, raw_profile_id, raw_profile_list, random_combination):
         raw_profile_is_smaller = 1
         while (raw_profile_is_smaller):
             raw_profile = RawProfile(raw_profile_id, random.choice(raw_profile_list))
-            if (raw_profile.length >= np.asscalar(random_combination["sum"].values)):
+            if (raw_profile.length >= np.ndarray.item(random_combination["sum"].values)):
                 raw_profile_is_smaller = 0
 
         return raw_profile
