@@ -6,7 +6,6 @@ from dataclasses import dataclass
 from typing import List
 from pathlib import Path
 
-from permutations import Permutations
 from simulated_annealing import SimulatedAnnealing
 
 
