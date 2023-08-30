@@ -1,0 +1,4 @@
+Rohprofile: [1000, 2000, 3000, 5000]
+Schnitttoleranz: 10
+Pfad-Input-Profile-XLS: ./profillängen.xlsx
+Pfad-Output-Bestellliste-XLS: ./result.xlsx
