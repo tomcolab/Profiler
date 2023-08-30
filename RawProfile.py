@@ -18,7 +18,7 @@ class RawProfile():
           self.scrap = 0
           self.cut_id = "A"
 
-     def cut_profile(self, profile_id, cut_length):
+     def cut(self, profile_id, cut_length):
           self.remainder = self.remainder - cut_length
           cut_id = self.__get_cut_id()
           NewCut = Cut(cut_id, profile_id, cut_length)
@@ -32,3 +32,6 @@ class RawProfile():
      def scrap_remainder(self):
           self.scrap = self.remainder
           self.remainder = 0
+          
+     def is_raw(self):
+          return self.length == self.remainder
