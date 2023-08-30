@@ -6,7 +6,6 @@ import pandas as pd
 import numpy as np
 import cProfile
 
-from permutations import Permutations
 from simulated_annealing import SimulatedAnnealing
 
 import matplotlib.pyplot as plt

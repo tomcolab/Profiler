@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 20 23:05:47 2017
-
-@author: thoma
-"""
-
 from Cut import *
 
 class RawProfile():
@@ -21,7 +14,7 @@ class RawProfile():
      def cut(self, profile_id, cut_length):
           self.remainder = self.remainder - cut_length
           cut_id = self.__get_cut_id()
-          NewCut = Cut(cut_id, profile_id, cut_length)
+          NewCut = Cut(cut_id, profile_id, self.id, cut_length)
           self.cut_list.append(NewCut)
 
      def __get_cut_id(self):
